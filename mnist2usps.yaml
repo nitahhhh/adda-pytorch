@@ -1,0 +1,25 @@
+train:
+    batch_size: 64
+    test_batch_size: 100
+    lr: 0.0001
+    use_cuda: True
+    seed : 1
+    epochs: 100 
+    log_interval: 20 
+    log: outputs/mnist2usps.log
+    pretrained_path: pytorch_model_mnist2usps
+    train_data_a: MNISTSAMPLE
+    train_data_a_path: data/mnistsample
+    train_data_a_size: 60000
+    train_data_a_seed: 0
+    train_data_a_use_train_data: True
+    train_data_b: USPSSAMPLE
+    train_data_b_path: data/uspssample
+    train_data_b_size: 7438
+    train_data_b_seed: 0
+    train_data_b_use_train_data: True
+    test_data_b: USPSSAMPLE
+    test_data_b_path: data/uspssample
+    test_data_b_size: 1860
+    test_data_b_seed: 0
+    test_data_b_use_train_data: False
