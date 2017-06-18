@@ -8,13 +8,13 @@ usps -> mnist
 </br>
 
 ### command
-##### >> python train_src.py --config "A->B config-file"
+##### $ python train_src.py --config "A->B config-file"
 #training a model on source domain data </br>
 "A->B config-file" should be usps2mnist.yaml or mnist2usps.yaml</br>
 val reports the accuracy on target data
 </br></br>
 
-##### >> python main.py --config "A->B config-file"
+##### $ python main.py --config "A->B config-file"
 #adapt the model trained on source data to fit target data with ADDA method</br>
 "A->B config-file" should be usps2mnist.yaml or mnist2usps.yaml
 </br></br>
