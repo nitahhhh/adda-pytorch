@@ -3,9 +3,9 @@ Implementation of "Adversarial Discriminative Domain Adaptation"(https://arxiv.o
 
 
 ##### python train_src.py
-training on source domain data
+training on source domain data</br>
 (the testing accuracy shows preformance on target domain）
-</br></br></br>
+</br></br></br
 ##### python main.py
 domain adaptation with ADDA method
 
